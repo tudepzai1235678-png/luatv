@@ -1,3 +1,5 @@
+local DEVICE_AUTH_DISABLED = true -- Bản dev của game: mở các chức năng VIP, không kiểm tra DeviceID
+
 ShowGameTipsWithoutFilter('Đã tải thành công')
 local www_dir = LuaInterface and LuaInterface.geturl and LuaInterface:geturl():gsub('/$',''):gsub('/','_'):gsub(':', '_') .. '/' or ''
 local StdioRoot = LuaInterface:getStdioRoot()
